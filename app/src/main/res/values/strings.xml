@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WebView in Compose Sample</string>
+    <string name="main_screen_top_app_bar_title">WebView in Compose</string>
+</resources>
