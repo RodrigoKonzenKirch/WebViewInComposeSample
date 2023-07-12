@@ -15,9 +15,9 @@
         android:theme="@style/Theme.WebViewInComposeSample"
         tools:targetApi="31">
         <activity
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.WebViewInComposeSample">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

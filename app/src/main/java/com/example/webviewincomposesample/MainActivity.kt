@@ -63,6 +63,8 @@ fun AppContent() {
             )
 
             webViewClient = WebViewClient()
+//          Setting this variable to true enables use of javascript on the WebView
+//            settings.javaScriptEnabled = true
             loadUrl(mUrl)
         }
     }, update = {
